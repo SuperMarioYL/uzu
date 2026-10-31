@@ -67,7 +67,6 @@ mod tests {
         types::session::chat::ChatReplyFinishReason,
     };
 
-    use super::ToolCallState;
     use crate::openai::stream_state::{StreamChunk, StreamState, ToolCallChunk};
 
     fn finished_arguments(arguments: Option<String>) -> String {
